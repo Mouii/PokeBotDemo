@@ -68,7 +68,6 @@ public class PokeAskOwnerCellTest {
 
     @Test
     public void testSansEleveur() {
-
         assertEquals("@huyvin No owner", cell.ask(new Tweet("huyvin", "@Rattata Owner?")));
     }
 }
